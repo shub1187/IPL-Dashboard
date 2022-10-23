@@ -1,0 +1,180 @@
+
+#body{
+    height: 100vh;
+    width:100%;
+    background-color: lightgrey;
+    display: flex;
+    box-sizing: border-box;
+}
+#left{
+ height: 100%;
+ width: 40%;
+ background-color: antiquewhite;
+ background-image: url("/public/images/IPL-teams.jpg");
+ background-repeat: no-repeat;
+ background-size:  100% 100%;
+}
+img{
+    height: 100%;
+    width:100%;
+}
+#left:hover{
+    cursor: pointer;
+    background-image: url("/public/images/ipl-champs.jpg");
+    background-repeat: no-repeat;
+    background-size:  100% 100%;
+    transition: all 1s ease;
+    color:white;
+    font-size: 0%;
+}
+
+
+#right{
+    height: 100%;
+    width: 60%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+#top{
+    width: 100%;
+    height: 10%;
+    background-image: linear-gradient(to right,#E0144C,#2E0249);
+}
+#header{
+    height: 100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+}
+#mid{
+    width:100%;
+    height:10%;
+    background-image: linear-gradient(to right,#E0144C,#2E0249);
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    color: white;
+}
+.navbar{
+    width: 40%;
+    height: 70%;
+    background-image: linear-gradient(to right,#F806CC,#2E0249);
+    border: 3px solid  whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+.battle{
+    width: 40%;
+    height: 70%;
+    background-image: linear-gradient(to right,#F806CC,#2E0249);
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+.battle:hover{
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size:  100% 100%;
+    border: 2px solid whitesmoke;
+    transform: scale(1.5);
+    transition: all 1s ease;
+    color:white;
+    font-size: 36px;
+}
+.navbar:hover{
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size:  100% 100%;
+    border: 2px solid whitesmoke;
+    transform: scale(1.5);
+    transition: all 1s ease;
+    color:white;
+    font-size: 36px;
+}
+
+#bottom{
+    width: 100%;
+    height: 80% ;
+    background-image: linear-gradient(to right,#7DE5ED,#5837D0);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#header-season{
+    height: 10%;
+    width: 100%;
+    background-image: linear-gradient(to right,#FF97C1,#9A1663);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 32px;
+    border: 2px solid white;
+    overflow: hidden;
+   
+}
+#text{
+    animation: animate 5s linear infinite;
+    /* padding-left: 100%; */
+    display: inline-block;
+}
+
+@keyframes animate{
+    100%{
+        transform: translate(100%,0);
+    }
+   
+}
+
+.row{
+    height:20%;
+    width: 100%;
+    /* background-color: blue; */
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* margin: 2%; */
+    box-sizing: border-box;
+}
+
+.card{
+    height: 100%;
+    width:30%;
+    /* background-color: lightgray; */
+    background-image: url("/public/images/captains.jpg");
+    background-repeat: no-repeat;
+    background-size:  100% 100%;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    font-size: 24px;
+    color: white;
+}
+.card:hover{
+    cursor: pointer;
+    background-image: url("/public/images/ipl.jpg");
+    background-repeat: no-repeat;
+    background-size:  100% 100%;
+    border: 2px solid  whitesmoke;
+    transform: scale(1.5);
+    transition: all 1s ease;
+    color:black;
+    font-size: 0%;
+}

@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+## Introduction: 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The project uses the IPL's previous seasons statistical data to showcase analatical data in a graphical and crisp manner.
 
-## Available Scripts
+## Technologies used :
 
-In the project directory, you can run:
+1: RecatJs,Javscript,HTML,CSS;
 
-### `npm start`
+## Library used :
+ ReactJs
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Major Npm packages used:
+1: React-Icons - To import and display react icons in UI. Example:Dashboard react icon is used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2:Re-charts - To display the filtered data in a graphical manner.
+                Example: 1: Used Line chart to showcase the individal team performance season wise.
+                        2: Used pie chart to showcase the winning percentage between two teams based on pervious battle/matches results.
 
-### `npm test`
+3:React-router-dom : To make the app a single page application(SPA) this was used  to  navigate between the mainpage/Dashboard and the charts/visual representation of data sheets as per the option clicked by user on the dashboard using virtual Dom.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Major Features of the Dashboard:
+1: By clicking on the IPL season card in UI it  will display the season finale match result of that particular season, The content will change
+    dynamically as per the IPL season card that has been clicked.
 
-### `npm run build`
+2: Dasboard button is provided on all pages will redirect the user the mainpage/Dashboard after seeing the desired output.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3: Clicking on Team Battles button on UI will redirect user to Duo battle page where user has to select any two teams and click on the
+    find battle result it will showcase a piechart showing which team has what winning percentage over other based on the previous match data.
+    Two cards will be visible at the bottom showing pervious matches deatils and stats of two teams.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4:Click on Performace stats button in UI will redirect user to Performance battle page where user has to select a team of his choice 
+    and then on basis of team selected a line graph will be visible showcasing the performance of that team as per the seasons.
+    on hovering on map it will show how many matches that team has won in that particular season.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Bonus Points
 
-### `npm run eject`
+1: Used ReactJs frontend library to build the IPL App.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2: It is a progressive App all the logic and UI desing will work for upcoming seasons once the data is updated in CSV file.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3:The Web app developed can be used offline as csv file is stored as a local file that can be used to fetch data by react component 
+    without an internet connections and all the features mentioned above will work.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4:The code for this web app has been uploaded on Github.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5:This Web app is hosted on netlify.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

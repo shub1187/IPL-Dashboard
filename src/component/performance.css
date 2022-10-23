@@ -1,0 +1,43 @@
+
+#perform-outer{
+    height: 100vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+#perform-select{
+    height:20%;
+    width:100%;
+   background-color: #251B37;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #FFECEF;
+}
+#seperator{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#perform-graph{
+    height: 80%;
+    width: 100%;
+    background-color: whitesmoke;
+    background-image: linear-gradient(to right,whitesmoke,#FFCACA);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6vh;
+}
+#mybtn2{
+    background-color: #FFCACA;
+    color:#251B37;
+    border: 2px solid whitesmoke;
+    /* border-radius: 10px; */
+}
+#mybtn2:hover{
+    background-color:#251B37;
+    color: #FFECEF;
+}
+
